@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Fase 3 Diseño y Construcción II</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Fase 2 Diseño y Construcción I">
+    <meta name="description" content="Fase 2 Diseño y Construcción I">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <!--
+    <script src="../js/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    -->
+  </head>  
+
+  <style>
+    .navbar-brand {
+      padding: 0px;
+    }
+    .navbar-brand>img {
+      height: 98%;
+      padding: 0px;
+      width: auto;
+    }
+    .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(4, 25%);
+    height: 100%;
+    width: 100%;
+    grid-gap: 2%;
+    grid-template-areas:
+      "c a a a"
+      "c a a a";
+    }
+    .item1 {
+      grid-area: a;
+    }
+    .item2 {
+      grid-area: b;
+    }
+    .item3 {
+      grid-area: c;
+    }
+</style>
+
+<body>    
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="pw3FqG5u"></script>  
+
+    <header>
+      <center><h1>La interfaz de usuario, Interacción Humano Ordenador</h1></center>
+    </header>    
+
+    <hr>
+
+    <div class="container">
+
+      <div w3-include-html="menu.html"></div>
+
+    <section>      
+        <article>
+            <div class="wrapper"> 
+              <div class="item3">
+                <aside>
+                  <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="" 
+                  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/UniversidadUNAD">Fundacion Jesús Es Miroca</a></blockquote>         
+                  </div>
+                  </aside> 
+              </div> 
+                <div class="item1">
+                  <center>
+                    <p>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/HG5JF7G8fjM" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+                  </center>  
+                </div>           
+          </div>
+        </article>      
+      </section>
+  
+      <hr>
+
+    <section>      
+        <article>
+           <h3><b>Bibliografía</b></h3>            
+           <div class="row"> 
+                <div class="col-md-12">
+                    <p>
+                        <span>
+                            Github Docs. Recuperado de <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a>
+                            <br><br>
+                            Ciencia Móvil T02/Interacción humano-computadora/Cuauhtémoc Rivera Loaiza. 
+                            Recuperado de <a href="https://www.youtube.com/watch?v=HG5JF7G8fjM">https://www.youtube.com/watch?v=HG5JF7G8fjM</a>
+                            <br>
+                        </span>
+                    </p>
+                </div>             
+          </div>
+        </article>      
+    </section>
+
+    <hr>
+    
+    <footer>
+      <p>
+          <center><a href="#">Correo: ljgarciap@unadvirtual.edu.co | Skype: lionheartsq@hotmail.com | 2021-06-21</a></center>
+      </p>
+    </footer>
+
+    </div>
+
+  </body>  
+
+  <script>
+    w3IncludeHTML();
+  </script>
+
+</html>

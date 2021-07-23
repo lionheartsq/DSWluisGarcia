@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Fase 3 Diseño y Construcción II</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Fase 2 Diseño y Construcción I">
+    <meta name="description" content="Fase 2 Diseño y Construcción I">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <!--
+    <script src="../js/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    -->
+  </head>  
+
+    <style>
+        .navbar-brand {
+          padding: 0px;
+        }
+        .navbar-brand>img {
+          height: 98%;
+          padding: 0px;
+          width: auto;
+        }
+        .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 24%);
+        grid-template-rows: repeat(4, 25%);
+        height: 100%;
+        width: 100%;
+        grid-gap: 2%;
+        grid-template-areas:
+          "c a a b"
+          "c a a b";
+        }
+        .item1 {
+          grid-area: a;
+        }
+        .item2 {
+          grid-area: b;
+        }
+        .item3 {
+          grid-area: c;
+        }
+    </style>
+
+  <body>    
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="pw3FqG5u"></script>
+
+    <header>
+      <center><h1>La interfaz de usuario, Interacción Humano Ordenador</h1></center>
+    </header>    
+
+    <hr>
+
+    <div class="container">
+
+      <div w3-include-html="menu.html"></div>
+
+    <section>      
+
+      <article>
+            <div class="wrapper"> 
+              <div class="item3">
+                <aside>
+                  <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="" 
+                  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/UniversidadUNAD">Fundacion Jesús Es Miroca</a></blockquote>         
+                  </div>
+                  </aside> 
+              </div> 
+                <div class="item1">
+                    <p>
+                      <br><br>
+                      <center><h2>Ingeniería de Sistemas</h2></center>
+                      <center><h3><a href="#">Luis José García Pinzón</a></h3></center>
+                      <center><h3><a href="#">13514998</a></h3></center>
+                      <center><h3><a href="#">DISEÑO DE SITIOS WEB - (301122A_953)</a></h3></center>
+                      <br>
+                      <center><a href="#">Correo: ljgarciap@unadvirtual.edu.co | Skype: lionheartsq@hotmail.com | 2021-06-21</a></center>
+                    </p>
+                </div>
+                <div class="item2">
+                        <img src="../img/Luis.jpg" style="max-width:100%;" alt="imagen">  
+                </div>       
+
+          </div>
+        </article>      
+      </section>
+  
+      <hr>
+    
+    <footer>
+      <p>
+          <center><a href="#">Correo: ljgarciap@unadvirtual.edu.co | Skype: lionheartsq@hotmail.com | 2021-06-21</a></center>
+      </p>
+    </footer>
+
+    </div>
+
+  </body>  
+
+  <script>
+    w3IncludeHTML();
+  </script>
+
+</html>
